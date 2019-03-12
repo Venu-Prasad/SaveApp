@@ -13,6 +13,8 @@
 		182A2F8B2237BC5F0014B6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182A2F8A2237BC5F0014B6F9 /* Assets.xcassets */; };
 		182A2F8E2237BC5F0014B6F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182A2F8C2237BC5F0014B6F9 /* LaunchScreen.storyboard */; };
 		182A2F912237BC5F0014B6F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A2F902237BC5F0014B6F9 /* main.m */; };
+		182A2F9A2237BEE10014B6F9 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A2F982237BEE10014B6F9 /* ImageViewController.m */; };
+		182A2F9B2237BEE10014B6F9 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182A2F992237BEE10014B6F9 /* ImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		182A2F8D2237BC5F0014B6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182A2F8F2237BC5F0014B6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182A2F902237BC5F0014B6F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182A2F972237BEE10014B6F9 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		182A2F982237BEE10014B6F9 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		182A2F992237BEE10014B6F9 /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 				182A2F842237BC5C0014B6F9 /* ViewController.h */,
 				182A2F852237BC5C0014B6F9 /* ViewController.m */,
 				182A2F872237BC5C0014B6F9 /* Main.storyboard */,
+				182A2F972237BEE10014B6F9 /* ImageViewController.h */,
+				182A2F982237BEE10014B6F9 /* ImageViewController.m */,
+				182A2F992237BEE10014B6F9 /* ImageViewController.xib */,
 				182A2F8A2237BC5F0014B6F9 /* Assets.xcassets */,
 				182A2F8C2237BC5F0014B6F9 /* LaunchScreen.storyboard */,
 				182A2F8F2237BC5F0014B6F9 /* Info.plist */,
@@ -130,6 +138,7 @@
 			files = (
 				182A2F8E2237BC5F0014B6F9 /* LaunchScreen.storyboard in Resources */,
 				182A2F8B2237BC5F0014B6F9 /* Assets.xcassets in Resources */,
+				182A2F9B2237BEE10014B6F9 /* ImageViewController.xib in Resources */,
 				182A2F892237BC5C0014B6F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +152,7 @@
 			files = (
 				182A2F862237BC5C0014B6F9 /* ViewController.m in Sources */,
 				182A2F912237BC5F0014B6F9 /* main.m in Sources */,
+				182A2F9A2237BEE10014B6F9 /* ImageViewController.m in Sources */,
 				182A2F832237BC5C0014B6F9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
